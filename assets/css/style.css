@@ -3,7 +3,7 @@
 }
 header{
     color: black;
-    background-color: rgb(166, 211, 226);
+    background-color: rgb(215, 191, 167);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,4 +36,47 @@ nav ul{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+  }
+  
+  .smallCard {
+    display: inline-flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex: 3;
+    height: 10px;
+  
+  }
+
+  .smallCard > img {
+    width: 95%;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: rgb(215, 191, 167);
+  }  
+
+  .medCard {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(215, 191, 167);
+    border-width: thick;
+    flex: 0 0 300px;
+  }
+  .medCard > img {
+    width: 100%;
+  }
+  .cardHeader {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(215, 191, 167);
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    
+    }
+  
+  @media screen and (max-width: 500px) {
+    .smallCard {
+      width: 100%;
+    }
   }
