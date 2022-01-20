@@ -15,7 +15,7 @@ h1{
     font-weight: bold;
 }
 section h2{
-  margin-left: 25%;
+  margin-left: 35%;
   text-decoration: underline;
 }
 #abtMeP{
@@ -29,7 +29,7 @@ section h2{
     
 }
 nav{
-    display: block;
+    display: flex;
 }
 nav ul{
     display: flex;
@@ -94,12 +94,11 @@ nav ul{
     
  
   aside{
+    display: flex;
     display: block;
     flex: 1;
     background-color: rgb(215, 191, 167);
     float: right;
-    /* padding: 80px; */
-    /* text-align: right; */
     text-align: center;
     width: 22%;
     
