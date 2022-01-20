@@ -120,6 +120,21 @@ nav ul{
     height: 100%;
 
   }
+  /* footer{
+    text-align: center;
+    
+  } */
+  .footer {
+    padding: 30px;
+    clear: both;
+    background-color: rgb(215, 191, 167);
+    color: black;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
   @media screen and (max-width: 500px) {
     .smallCard {
       width: 100%;
