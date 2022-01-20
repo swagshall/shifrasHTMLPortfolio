@@ -13,9 +13,12 @@ h1{
      font-size: 25px;
     font-weight: bold;
 }
-h2{
-  text-align: center;
+section h2{
+  margin-left: 25%;
   text-decoration: underline;
+}
+#abtMeP{
+  margin-right: 25%;
 }
     
 .backgroundImg{
@@ -93,37 +96,19 @@ nav ul{
     margin-left: 10px;
     margin-right: 5px;
     width: 20%;
+    height: 100%;
     background-color: lightgray;
   } 
   
   aside{
     display: block;
   }
-  /* .asideContact{ */
-      /* width: 20%;
-      padding-left: 15px;
-      margin-left: 15px; 
-      float: right; 
-      font-style: italic;
-      
-      margin-right: 20px;
-     padding: 20px;
-      clear: both;
-      float: right;
-      width: 20%;
-      height: 100%;
-      
-      
-     
-  }*/
+ 
   #contactMeSection{
     height: 100%;
 
   }
-  /* footer{
-    text-align: center;
-    
-  } */
+
   .footer {
     padding: 30px;
     clear: both;
@@ -137,6 +122,11 @@ nav ul{
 }
   @media screen and (max-width: 500px) {
     .smallCard {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .medCard {
       width: 100%;
     }
   }
