@@ -30,6 +30,7 @@ section h2{
 }
 nav{
     display: flex;
+    
 }
 nav ul{
     display: flex;
@@ -144,6 +145,13 @@ nav ul{
   @media screen and (max-width: 825px) {
     aside {
       width: 100%;
+      background-color: lightgray;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    nav {
+      width: 100%;
+      flex-wrap: wrap;
       background-color: lightgray;
     }
   }
